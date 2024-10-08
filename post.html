@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Post</h1>
+        <a href="index.html">Back to Home</a>
+    </header>
+
+    <main>
+        <article id="post-content">
+            <!-- The post content will be loaded here by post.js -->
+        </article>
+
+        <section id="comments">
+            <h3>Comments</h3>
+            <!-- Comments will be loaded and submitted here -->
+            <ul id="comment-list"></ul>
+            <textarea id="comment-text" placeholder="Write a comment..."></textarea>
+            <button id="submit-comment">Submit Comment</button>
+        </section>
+    </main>
+
+    <script src="scripts/post.js"></script>
+</body>
+</html>
